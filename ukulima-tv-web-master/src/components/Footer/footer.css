@@ -1,0 +1,23 @@
+.footer{
+    background: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    padding: 10px;
+    
+}
+.about-us p{
+    text-align: center;
+}
+.contact-us{
+text-align: center;
+}
+.social-media{
+text-align: center;
+}
+@media screen and (max-width:960px){
+.footer{
+    display: block;
+    flex-direction: column;
+}
+}
